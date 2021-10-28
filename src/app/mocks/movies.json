@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Star Wars: The Last Jedi",
+        "image": "https://m.media-amazon.com/images/I/A1wnJQFI82L._AC_SY879_.jpg",
+        "price": "₹ 160"
+    },
+    {
+        "title": "Shape Of Water",
+        "image": "https://lumiere-a.akamaihd.net/v1/images/shapeofwater_feature-poster_584x800_c53863cc.jpeg?region=0%2C0%2C584%2C800",
+        "price": "₹ 130"
+    },
+    {
+        "title": "Baahubali: The Conclusion",
+        "image": "https://www.filmibeat.com/ph-big/2017/05/baahubali-2-the-conclusion_149577721640.jpg",
+        "price": "₹ 210"
+    },
+    {
+        "title": "Thor: The Ragnarok",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_.jpg",
+        "price": "₹ 170"
+    },
+    {
+        "title": "Justice League",
+        "image": "https://i0.wp.com/www.supermanhomepage.com/clickandbuilds/SupermanHomepage/wp-content/uploads/2017/10/JL-Poster-Oct.jpg?ssl=1",
+        "price": "₹ 120"
+    },
+    {
+        "title": "Coco",
+        "image": "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_.jpg",
+        "price": "₹ 110"
+    },
+    {
+        "title": "Jumanji: Welcome To The Jungle",
+        "image": "https://m.media-amazon.com/images/M/MV5BODQ0NDhjYWItYTMxZi00NTk2LWIzNDEtOWZiYWYxZjc2MTgxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+        "price": "₹ 120"
+    },
+    {
+        "title": "Murder On The Orient Express",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTAxNDkxODIyMDZeQTJeQWpwZ15BbWU4MDQ2Mjg4NDIy._V1_.jpg",
+        "price": "₹ 160"
+    },
+    {
+        "title": "Spider-Man: Homecoming",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/A1CcbJfKqJL.jpg",
+        "price": "₹ 190"
+    },
+    {
+        "title": "Ferdinand",
+        "image": "https://i.pinimg.com/originals/c9/cc/20/c9cc20e5be8f8bf1da4a4e5d55414563.jpg",
+        "price": "₹ 100"
+    },
+    {
+        "title": "The Disaster Artist",
+        "image": "https://m.media-amazon.com/images/M/MV5BOGNkMzliMGMtMDI5Ni00OTZkLTgyMTYtNzk5ZTY1NjVhYjVmXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_.jpg",
+        "price": "₹ 90"
+    },
+    {
+        "title": "Lady Bird",
+        "image": "https://m.media-amazon.com/images/M/MV5BODhkZGE0NDQtZDc0Zi00YmQ4LWJiNmUtYTY1OGM1ODRmNGVkXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+        "price": "₹ 80"
+    }
+]
