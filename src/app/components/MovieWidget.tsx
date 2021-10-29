@@ -1,8 +1,12 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable react-native/no-inline-styles */
 /* eslint-disable prettier/prettier */
 import * as React from 'react';
-import { Image, StyleSheet, Text, View } from 'react-native';
-import { Card, colors } from 'react-native-elements';
+import { Alert, Button, Image, StyleSheet, Text, View } from 'react-native';
+import { colors } from 'react-native-elements';
+// import { useDispatch } from 'react-redux';
+import { cartActions } from '../../store/cartStore';
+
 
 
 interface Props {
@@ -13,7 +17,12 @@ interface Props {
 
 export default function MovieWidget({ item }) {
 
-    //const {image, title, price} = props;
+    //const { image, title, price } = item;
+    // const dispatch = useDispatch();
+    // function addCartItems(items: Props) {
+    //     return dispatch(cartActions.addCartItems(items));
+    // }
+
     return (
         // <Card style={{ width: '50%', height: 140 }}>
         //   <Card.Image source={{uri: item.image}} style={{ width: '100%', height: 140 }}/>
@@ -29,7 +38,8 @@ export default function MovieWidget({ item }) {
                 source={{ uri: item.image }}
             />
             <Text style={{ textAlign: 'center', marginTop: 8 }}>{item.title}</Text>
-            <Text style={{ textAlign: 'right', marginTop: 8, color:'#fe485a' }}>{item.price}</Text>
+            <Text style={{ textAlign: 'right', marginTop: 8, color: '#fe485a' }}>{item.price}</Text>
+            {/* <Button title="Add to Cart" onPress={() => addCartItems(item)} /> */}
         </View>
     );
 }
@@ -43,6 +53,6 @@ const styles = StyleSheet.create({
         shadowOffset: { width: 1, height: 1 },
         borderRadius: 2,
         padding: 5,
-        shadowColor:'grey',
+        shadowColor: 'grey',
     },
 });

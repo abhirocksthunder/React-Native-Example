@@ -18,6 +18,7 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 import Movies from './src/app/screens/Movies';
 import Products from './src/app/screens/Products';
 import Header from './src/app/components/Header';
+import Cart from './src/app/screens/Cart';
 
 function ProfileScreen() {
   return (
@@ -25,18 +26,6 @@ function ProfileScreen() {
       <Header title="Profile" />
       <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
         <Text>Profile Screen</Text>
-      </View>
-    </>
-  );
-}
-
-
-function CartScreen() {
-  return (
-    <>
-      <Header title="Cart" />
-      <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-        <Text>Cart Screen</Text>
       </View>
     </>
   );
@@ -75,7 +64,7 @@ function MyTabs() {
       />
       <Tab.Screen
         name="Cart"
-        component={CartScreen}
+        component={Cart}
         options={{
           tabBarIcon: ({color}) => (
             <MaterialCommunityIcons name="cart" color={color} size={26} />
@@ -100,7 +89,7 @@ const App = () => {
 
   return (
     <>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'}/>
       <NavigationContainer>
         <MyTabs />
       </NavigationContainer>

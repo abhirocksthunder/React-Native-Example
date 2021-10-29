@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-export interface Movies {
+export interface MovieData {
   title: string;
   image: string;
   price: string;

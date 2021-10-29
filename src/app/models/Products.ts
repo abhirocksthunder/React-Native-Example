@@ -4,7 +4,7 @@ export interface Rating {
     count: number;
 }
 
-export interface Products {
+export interface ProductsData {
     id: number;
     title: string;
     price: string;
